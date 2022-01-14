@@ -6,13 +6,14 @@
 body{
 	font-family: 'Poppins', sans-serif;
 	transition: all 0.5s ease;
+    
 }
 body, html{
 	height:100%;
 }
-/* img{
+img{
 	max-width:100%;
-} */
+} 
 a{
 	text-decoration:none;
 }
@@ -51,13 +52,13 @@ p{
 }
 /*-----Common css End/Typography ----------*/
 /* Header Part Start */
-.container {
+.hdr_nav_contnr_bg{
     width: 1280px;
     margin: 0 auto;
     height: 141px;
     padding-top: 95px;
 }
-.logo-left h3{
+.logo_left h3{
     font-weight: bold;
     font-size: 25px;
 }
@@ -80,8 +81,34 @@ p{
     width:19px;
     margin-top: 7px;
 }
-
-
-
-
 /* Header Part End */
+/* Section Start Journey  Part start */
+.section_cntnr_bg{
+    width:1280px;
+    margin:0 auto;
+}
+.strt_jrny_left_side{
+    width:620px;
+    margin-right:20px
+}
+.strt_jrny_left_side h2{
+    color:#3A3A3A;
+    font-size: 50px;
+    font-weight: bold;
+}
+.strt_jrny_left_side p{
+    margin:20px 0 30px;
+    color:#3A3A3A;
+    font-weight: bold;
+}
+.prebook_now{
+    background-color:#E02C6D;
+    font-size: 20px;
+    padding: 12px 40px;
+    color:white;
+    border-radius: 30px;
+}
+.strt_jrny_right_side{
+    
+}
+/* Section Start Journey Part End */
