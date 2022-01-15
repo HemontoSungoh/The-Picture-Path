@@ -5,23 +5,21 @@
             Leftover space for scrollbars @1024px: 32px.
     -------------------------------------------------------------------------------
     */
-    @media only screen and (min-width: 991px){
-        width:100%;
+@media only screen and (min-width: 991px){
+  
         
-    }
+}
     
     
     
-    /*		Tablet Layout: 768px.
-            Gutters: 24px.
-            Outer margins: 28px.
-            Inherits styles from: Default Layout.
-    -----------------------------------------------------------------
-    */
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .hdr_nav_contnr_bg{
-            wid
-        }
+/*	Tablet Layout: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+        
         
     }
     
@@ -69,7 +67,6 @@
     text-align: center;
 }
 .strt_jrny_left_side p{
-    margin:;
     color:#3A3A3A;
     font-size: 12px;
     text-align: center;
