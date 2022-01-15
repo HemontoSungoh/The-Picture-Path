@@ -180,3 +180,69 @@ h1, h2, h3, h4, h5, h6{
     margin-top:20px;
 }
 /* single card/popular part End */
+/* Feature part start */
+.about_bg_part{
+    width: 1080px;
+    margin:0 auto;
+    margin-top: 40px;
+   
+}
+.left_side_about_part{
+    width:535px;
+    border-radius: 10px;
+    
+}
+.right_side_about_part h2{
+    color:#408D5B;
+    font-weight: bold;
+    font-size: 30px;
+}
+.right_side_about_part p {
+    color: #520085;
+    font-size: 15px;
+    margin-bottom: 44px;
+    border-radius: 4px;
+}
+.right_side_about_part{
+    width:535px;
+    margin-left: 10px;
+}
+.know_more{
+    margin-left:10px;
+    background-color: #E02C6D;
+    color:white;
+    padding: 10px 28px;
+   
+}
+/* Feature part End */
+/* footer part start */
+.footer_full_bg{
+    background-color: black;
+}
+.footer_part_bg{
+    width:1280px;
+    margin:0 auto;
+    padding: 15px 20px;
+}
+.footer h3{
+    text-align: center;
+    color:lavender;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer p{
+    text-align: center;
+    color:lavender;
+    font-size: 12px;
+}
+.footer ul li{
+    float: left;
+    list-style-type: none;
+}
+.footer ul li a img{
+    width:30px;
+    height: 30px;
+    padding: 0 4px;
+}
+
+/* footer part End */
