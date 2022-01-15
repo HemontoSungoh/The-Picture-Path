@@ -56,9 +56,8 @@
 .section_cntnr_bg{
     width:100%;
     margin:0 auto;
-    border-bottom: 2px solid #ddd;
-    overflow: hidden;
-    height: 526px;
+    border-bottom: 0;
+  
 }
 .strt_jrny_left_side{
     width:100%;
@@ -78,7 +77,6 @@
 }
 .strt_jrny_left_side .Preebook_Now{
     width: 100%;
-   
 	font-size: 14px;
 	color: #ffff;
 	background-color: #E02C6D;
@@ -86,12 +84,42 @@
     border-radius: 25px;
     margin-left:70px
 }
-.influencer{
+.influencer_h2_jrny_P{
     text-align: center;
 }
 .strt_jrny_right_side{
     width: 100%;
 }
+/* Logo part start */
+.logo_Prt_bg{
+    width: 100%;
+    border-bottom:0px;
+}
+.logo_Prt_bg li{
+    margin-left: 2px;
+}
+.logos_ul_prt li a {
+    padding: 4px 7px;
+}
+.logo_Prt_bg li a img{
+    width:32px;
+} 
+/* Logo part End */
+/* single card/popular part start */
+.popular_container_bg{
+    width: 100%;
+    margin: 0 auto;
+}
+.sngle_prt_plr_collection_01 img{
+    width:300px;
+    margin-left:9px;
+    margin-top:9px;
+}
+.sngle_prt_plr_collection_01 h3, h4{
+    margin-left:9px;
+    font-weight: bold;
+}
+/* single card/popular part End */
 /* Section Start Journey Part End */
         
     }
