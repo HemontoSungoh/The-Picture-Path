@@ -172,6 +172,9 @@ h1, h2, h3, h4, h5, h6{
     line-height:179%;
     margin-left:9px;
 }
+.sngle_prt_plr_collection_01:last-child{
+    margin-right: 0;
+}
 .See_More{
     color:#E02C6D;
     margin-left:907px;
