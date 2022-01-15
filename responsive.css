@@ -94,6 +94,7 @@
 .logo_Prt_bg{
     width: 100%;
     border-bottom:0px;
+    
 }
 .logo_Prt_bg li{
     margin-left: 2px;
@@ -119,11 +120,20 @@
     margin-left:9px;
     font-weight: bold;
 }
-/* single card/popular part End */
-/* Section Start Journey Part End */
-        
-    }
+/* About us  Part Start */
+.about_bg_part{
+    display: none;
+}
+/* About us  Part End */
+/* footer Part start */
+.footer_part_bg{
+    width: 100%;
+}
+.footer .social_area {
+    margin-left: 30%;
     
+}
+/* footer Part End */
     
     
 /*		Wide Mobile Layout: 480px.
@@ -132,38 +142,116 @@
         Inherits styles from: Default Layout, Mobile Layout.
 ------------------------------------------------------------
 */
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-/* Header Part start */
-.logo_left h3{
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* Header Part start  */
+.section_part_full_bg{
     width: 100%;
 }
-/* Header Part start */
-/* popular part start  */
-.popular_container_bg{
-        with:100%;
-    }
-.popular_container_bg h2{
-            width: 100%;
-            text-align: center;
-            margin-top: 70px;
-            margin-bottom: 30px;
-            font-weight: bold;
-    }
-.sngle_prt_plr_collection_01{
-        width:100%;
-        background-color: #ddd;
-        border:1px solid white;
-        border-radius:5px;
-        margin-right:20px;
-        margin-bottom:20px;
-        box-shadow: 5px 5px 20px #F1F1F1;
-        box-shadow: none;
+.hdr_nav_contnr_bg{
+    width: 100%;
+    margin: 0 auto;
+    height: 45px;
+    padding-top: 8px;
 }
-    }
- /* popular part End  */  
+.logo_left h3{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-left:200px;
+   
+}
+.navigation{
+    display: none;
+}
+/* Header Part End  */
+/* Section Start Journey Part start */
+.section_cntnr_bg{
+    width:100%;
+    border-bottom: 0;
+}
+.strt_jrny_left_side{
+    width:100%;
+}
+.strt_jrny_left_side h2{
+    color:#3A3A3A;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.strt_jrny_left_side p{
+    color:#3A3A3A;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.strt_jrny_left_side .Preebook_Now{
+    width: 100%;
+	font-size: 14px;
+	color: #ffff;
+	background-color: #E02C6D;
+	padding: 8px 25px;
+    border-radius: 25px;
+    margin-left:40%;
+}
+.influencer_h2_jrny_P{
+    text-align: center;
+    width:100%;
+}
+.strt_jrny_right_side{
+    width: 100%;
+}
+.strt_jrny_right_side img{
+    width: 100%;
+    
+}
+/* Logo part start */
+.logo_Prt_bg{
+    width: 100%;
+    border-bottom:0px;
+   
+}
+.logo_Prt_bg li{
+    margin-left: 22px;
+}
+.logos_ul_prt li a {
+    padding: 4px 7px;
+}
+.logo_Prt_bg li a img{
+    width:72px;
+} 
+/* Logo part End */
+/* single card/popular part start */
+.section_part_full_bg{
+    width: 100%;
+}
+.popular_container_bg{
+    width: 100%;
+    margin: 0 auto;
+}
+.sngle_prt_plr_collection_01 img{
+    width:300px;
+    margin-left:9px;
+    margin-top:9px;
+}
+.sngle_prt_plr_collection_01 h3, h4{
+    margin-left:9px;
+    font-weight: bold;
+}
+/* About us  Part Start */
+.about_bg_part{
+    display: none;
+}
+/* About us  Part End */
+/* footer Part start */
+.footer_part_bg{
+    width: 100%;
+}
+.footer .social_area {
+    margin-left: 41%;
+    
+}
+/* footer Part End */
+    
 
     /*	Retina media query.
         Overrides styles for devices with a 
